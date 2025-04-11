@@ -49,3 +49,8 @@ python manage.py runserver
 Open your browser and go to `http://127.0.0.1:8000/`
 
 ---
+
+### 6. For admin or superuser
+- Create superuser
+- Go to 'http://127.0.0.1:8000/admin'
+- Login with superuser 
