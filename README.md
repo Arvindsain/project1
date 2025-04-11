@@ -48,9 +48,18 @@ python manage.py runserver
 
 Open your browser and go to `http://127.0.0.1:8000/`
 
----
+### 6. Urls
+
+- login: 'http://127.0.0.1:8000/login/'
+- register: 'http://127.0.0.1:8000/register/'
+### when user is logged in
+- add question: 'http://127.0.0.1:8000/ask/'
+- answer question: 'http://127.0.0.1:8000/question/question_id/'
+- user can like or dislike the answers of other user's by clicking like button.
 
 ### 6. For admin or superuser
 - Create superuser
 - Go to 'http://127.0.0.1:8000/admin'
-- Login with superuser 
+- Login with superuser
+
+---
